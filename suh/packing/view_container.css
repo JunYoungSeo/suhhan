@@ -1,0 +1,35 @@
+
+
+/* div */
+
+
+#main_div{height:100%;width:100%;background-color:white;}
+
+#header_div{width:100%;height:20%;left:50px;top:50px;}
+#left_header_div{float:left;width:70%;height:100%;}
+#right_header_div{float:left;width:30%;height:100%;}
+
+
+#left_div{width:70%;height:80%;float:left;}
+#left_sider_div{width:50px;height:100%;float:left;}
+
+#right_div{width:30%;height:80%;float:left;}
+#right_sider_div{width:50px;height:100%;float:right;}
+
+#common_condition_div{float:right;}
+
+/* table */
+
+#common_condition_table > tbody > tr:nth-child(1) > td:nth-child(n),#result_table > tbody > tr:nth-child(1) > td:nth-child(n),#list_table > tbody > tr:nth-child(1) > td:nth-child(n){background-color:#4169E1;color:white;}
+#common_condition_table,#result_table,#list_table{margin-right:100px;margin-top:10px;border: 1px solid #444444;border-collapse: collapse;text-align:center;}
+#common_condition_table,#result_table,#list_table> tr,td{border: 1px solid #444444;padding: 10px;}
+#common_condition_table,#result_table,#list_table{width:90%;}
+
+#list_table{position:relative;}
+#list_table > tbody > tr:last-child > td:nth-child(n){background-color:#f0f0f0;}
+
+/* btn */
+
+#calc_btn{width:20%;height:20%;}
+#left_sider_btn{width:100%;height:10%;position:relative;top:50%;}
+#right_sider_btn{width:100%;height:10%;position:relative;top:50%;}
